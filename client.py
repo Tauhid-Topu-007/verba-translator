@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 # ---------- Backend URL ----------
-BACKEND_URL = "https://verba-translator.onrender.com/"
+BACKEND_URL = "https://verba-translator.onrender.com/chain/invoke"
 
 # ---------- Languages ----------
 LANGUAGES = {
