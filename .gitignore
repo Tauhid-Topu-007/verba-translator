@@ -1,0 +1,64 @@
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+.python-version
+
+# Environment and secrets
+.env.*
+!.env.example
+*.secret
+
+# Packaging and build artifacts
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+MANIFEST
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and local data
+*.log
+logs/
+data/
+tmp/
+temp/
+
+# Local LangChain/LLM artifacts
+chroma/
+chroma_db/
+vectorstore/
+faiss_index/
+.env
